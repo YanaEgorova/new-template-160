@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #1a1a1a;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #e0e0e0;
+  --second-brand-color: #f96856;
+  --third-brand-color: #11999f;
+  --fourth-brand-color: #58bc7e;
+  --fifth-brand-color: #153ca3;
+  --sixth-brand-color: #a66be1;
+  --seventh-brand-color: #2b6df5;
+
+
+  --main-font:  'Spartan';
+  --title-font:  'Spartan Bold';
+
+  font-size: 62.5%;
+}
