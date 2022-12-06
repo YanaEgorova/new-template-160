@@ -34,21 +34,24 @@
 .hero__block--circle.first {
     width: 20rem;
     height: 20rem;
-    background-color: #e9f0fe;
+    background-color: var(--sixth-brand-color);
+    opacity: .2;
     top: -10rem;
     left: -2rem;
 }
 .hero__block--circle.second {
     width: 10rem;
     height: 10rem;
-    background-color: #e4f3f3;
+    background-color: var(--third-brand-color);
+    opacity: .2;
     top: 40%;
     right: -2rem;
 }
 .hero__block--circle.third {
     width: 5rem;
     height: 5rem;
-    background-color: #f3f4fd;
+    background-color: var(--sixth-brand-color);
+    opacity: .1;
     bottom: -5rem;
     left: 5rem;
 }
@@ -58,7 +61,7 @@
 
 
 .contacts__wrapper {
-    background-color: #f3f4fd;
+    background-color: var(--first-brand-color);
 }
 .contacts {
     padding: 10rem 0;
@@ -192,7 +195,8 @@
         align-self: flex-start;
     }
     .hero-box--first::before {
-        background-color: #9bdfef;
+        background-color: var(--third-brand-color);
+        opacity: .7;
         display: block;
         content: '';
         width: 100%;
@@ -289,7 +293,8 @@
         width: 20rem;
         height: 20rem;
         border-radius: 50%;
-        background-color: #ece1fa;
+        background-color: var(--sixth-brand-color);
+        opacity: .3;
         z-index: -1;
         top: -10rem;
         right: -10rem;
