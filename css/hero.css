@@ -144,16 +144,16 @@
         margin-left: 0;
     }
     .hero__block {
-        width: 65rem;
+        width: 50rem;
     }
     .hero .title {
-        font-size: 10rem;
+        /* font-size: 10rem; */
     }
     .hero__img-box {
         display: flex;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 10rem;
         height: 100%;
     }
     .hero__img-block {
@@ -170,7 +170,7 @@
     .hero__img-block--second {
         background-color: var(--fifth-brand-color);
         width: 35rem;
-        height: 70rem;
+        height: 65rem;
         border-radius: 0 0 20rem 20rem;
         z-index: 2;
         display: flex;
